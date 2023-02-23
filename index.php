@@ -8,12 +8,13 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="floricon.ico" type="image/x-icon">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Floricultura</a>
+            <a class="navbar-brand" href="#"><img src="floricon.png" alt="" width="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,36 +54,41 @@
             </button>
         </div>
 
-        <div class="container-fluid mt-5">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="foto1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-success">Arranje de flor</h5>
-                        <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
-                        <a href="#" class="btn btn-outline-success">Compre Já</a>
-                    </div>
-                </div>    
-                </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img src="foto2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-success">Arranje de flor</h5>
-                        <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
-                        <a href="#" class="btn btn-outline-success">Compre Já</a>
+                    <div class="card">
+                        <img src="foto1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Arranje de flor</h5>
+                            <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
+                            <a href="#" class="btn btn-outline-success">Compre Já</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="foto1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Arranje de flor</h5>
-                        <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
-                        <a href="#" class="btn btn-outline-primary">Compre Já</a>
+                <div class="col">
+                    <div class="card">
+                        <img src="foto2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Arranje de flor</h5>
+                            <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
+                            <a href="#" class="btn btn-outline-success">Compre Já</a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col">
+                    <div class="card" >
+                        <img src="foto1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Arranje de flor</h5>
+                            <p class="card-text">No nosso site você encontra os melhores arranjes de flores</p>
+                            <a href="#" class="btn btn-outline-primary">Compre Já</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -101,17 +107,17 @@
         </div>
 
     </main>
-<footer class="container bg-dark">
-    <div class="row">
-        <div class="col">
-            <h3 class="text-light">Floricultura</h3>
+    <footer class="container bg-dark">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-light">Floricultura</h3>
+            </div>
         </div>
-    </div>
-    <div class="col text-light">
+        <div class="col text-light">
 
-    </div>
-    
-</footer>
+        </div>
+
+    </footer>
 
 
 </body>
